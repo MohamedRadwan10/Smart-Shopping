@@ -26,7 +26,7 @@ export default function Profile() {
               {UserData?.name.split(" ").slice(0, 2).join(" ")}!
             </span>
           </h2>
-          <img src={profile} className="w-100" alt="profile image" />
+          <img src={profile} className="w-100" alt="profile image" draggable="false" />
         </div>
         <div className="col-md-6">
           <div className="mt-2">

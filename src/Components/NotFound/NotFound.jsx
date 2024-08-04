@@ -10,7 +10,7 @@ export default function NotFound() {
         <meta name="description" content="Not Found Page" />
       </Helmet>
       <div className="w-50 px-5 mx-auto">
-        <img src={logo} alt="Not Found" className="w-100 "/>
+        <img src={logo} alt="Not Found" className="w-100 " draggable="false"/>
       </div>
     </>
   );
