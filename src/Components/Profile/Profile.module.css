@@ -1,0 +1,22 @@
+.profile {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.profile div img {
+    border-radius: 20px;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 0;
+    background-color: rgb(10, 133, 174);
+}

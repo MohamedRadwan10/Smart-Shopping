@@ -1,0 +1,95 @@
+.binbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 95, 95);
+    cursor: pointer;
+    border: 3px solid rgb(255, 201, 201);
+    transition-duration: 0.3s;
+  }
+  .binbottom {
+    width: 10px;
+  }
+  .bintop {
+    width: 12px;
+    transform-origin: right;
+    transition-duration: 0.3s;
+  }
+  .binbutton:hover .bintop {
+    transform: rotate(45deg);
+  }
+  .binbutton:hover {
+    background-color: rgb(255, 0, 0);
+  }
+  .binbutton:active {
+    transform: scale(0.9);
+  }
+  /* ^.----------------------------------------------------------------------------------------------------------- */
+  .Btn {
+    height: 37px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+   .Btn, .Btn span {
+    transition: 200ms;
+   }
+   
+   .Btn .text {
+    color: white;
+    font-weight: bold;
+   }
+   
+   .Btn .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(55px);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .Btn svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .Btn:hover {
+    background: #ff3636;
+   }
+   
+   .Btn:hover .text {
+    color: transparent;
+   }
+   
+   .Btn:hover .icon {
+    width: 75px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   .Btn:focus {
+    outline: none;
+   }
+   
+   .Btn:active .icon svg {
+    transform: scale(0.8);
+   }
+
+
+   .txt{
+    width: 10%;
+   }
